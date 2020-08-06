@@ -35,51 +35,51 @@ Sub Object 1: Steering Wheel
     Name 4 things you'll find on the:    Steering Wheel
         1) paddle shifters
         2) 'cruise control' controls
-        3) 
-        4) 
+        3) horn
+        4) hands-free phone controls
     Name 2 things you can do with the:   Steering Wheel
-        1) adjust cruise control settings.
-        2)
+        1) adjust cruise control settings
+        2) answer your phone
         
 Sub Object 2: Instrument Cluster
     Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
+        1) speedometer
+        2) tachometer
+        3) mpg readout
+        4) external temperature gauge
     Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+        1) check your speed
+        2) check your rpms
+        3) check the outside temperature
     
 Sub Object 3: Environment Controls
     Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
+        1) air conditioning on/off
+        2) fan level
+        3) internal temperature gauge
     Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+        1) turn on air conditioning
+        2) adjust the airflow level
+        3) check the internal temperature
 
 Sub Object 4: Infotainment System
     Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
+        1) play/pause button
+        2) volume slider
+        3) search button
     Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+        1) pause music
+        2) increase music volume 
+        3) initiate a search
 
 Sub Object 5: Seat 
     Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
+        1) seatback adjustment lever
+        2) seat adjustment lever
+        3) seatbelt
     Name 2 things you can do with the:   Seat
-        1)
-        2)
+        1) fasten the seatbelt
+        2) raise the seatback
 */
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
