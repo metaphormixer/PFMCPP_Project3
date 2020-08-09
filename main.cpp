@@ -53,59 +53,59 @@ Thing: Car Wash
  */
 
 /*
-Thing 1)
+Thing 1) bicycle
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of gears
+    2) range of gears, low to high
+    3) turning radius
+    4) amount of braking capacity being used
+    5) speed
 3 things it can do:
-    1)
-    2)
-    3)
+    1) accelerate
+    2) decelerate
+    3) turn (left to right)
  */
 
 /*
-Thing 2)
+Thing 2) clothes dryer
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) temperature
+    2) length of cycle
+    3) speed of tumbling mechanism
+    4) drum light
+    5) moisture sensor
 3 things it can do:
-    1)
-    2)
-    3)
+    1) delicate cycle
+    2) large load cycle
+    3) bedding cycle
  */
 
 /*
-Thing 3)
+Thing 3) movie theater
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of screens
+    2) number of concession options
+    3) hours of operation
+    4) number of ushers
+    5) capacity per screen
 3 things it can do:
-    1)
-    2)
-    3)
+    1) screen movie #1
+    2) clean screening room #2
+    3) sell out of concession #3
  */
 
 /*
-Thing 4)
+Thing 4) bascule bridge
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) lanes of eastbound traffic
+    2) lanes of westbound traffic
+    3) drawbridge
+    4) ship corridor
+    5) stop lights
 3 things it can do:
-    1)
-    2)
-    3)
+    1) raise bridge
+    2) change stop light to red
+    3) lower bridge
  */
 
 
