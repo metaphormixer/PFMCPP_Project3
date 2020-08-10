@@ -109,17 +109,17 @@ Thing 4) bascule bridge
  */
 
 /*
-Thing 10)
+Thing 10) Roland Jazz Chorus 40 Amplifier
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) stereo volume/gain circuit
+    2) equalizer circuit
+    3) vibrato/chorus circuit
+    4) reverb circuit
+    5) distortion circuit
 3 things it can do:
-    1)
-    2)
-    3)
+    1) run a clean signal with reverb
+    2) run a distorted signal
+    3) run a signal with stereo vibrato
  */
 
 /*
