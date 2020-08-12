@@ -1,9 +1,9 @@
 /*
-Project 3 - Part 1a / 5
+Project 3 - Part 1c / 5
 Video:  Chapter 2 Part 5
 User-Defined Types
 
-Create a branch named Part1
+Continue your work on branch Part1
 
 Purpose: The entire purpose of this 5-part project is to get you writing C++ code that compiles and to 
 reinforce the syntax habits that C++ requires.  
@@ -20,67 +20,108 @@ You are going to write 10 UDTs in project3.
     Part 1e: you will convert those 10 plain-english UDTs into code that runs.
 ************************
 
-1) Look at the picture of the car interior (Part1a pic.jpg).  
-    Fill in the blanks below which break this car interior down into sub-objects.
-
-    Several sub-objects are listed below that make up this car's interior.
-        you're going to name several things that you'll find on each subobject
-        you're going to name several things that each subobject can do.
-        If you've seen "Family Feud", we are going to do what they do in that show
-
-        A few blanks are filled in for you already.
-
-Main Object: Car Interior
-Sub Object 1: Steering Wheel
-    Name 4 things you'll find on the:    Steering Wheel
-        1) paddle shifters
-        2) 'cruise control' controls
-        3) 
-        4) 
-    Name 2 things you can do with the:   Steering Wheel
-        1) adjust cruise control settings.
-        2)
-        
-Sub Object 2: Instrument Cluster
-    Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
-    Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+1) write the 10th UDT
+    come up with an object that is made of 5 smaller parts.
+    These parts will not be defined using Primitives, but instead will be their own UDTs you'll define in Part 1d
     
-Sub Object 3: Environment Controls
-    Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
-    Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+    Here is an example:
+    Cell Phone
 
-Sub Object 4: Infotainment System
-    Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
-    Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+    A Cell Phone is made up of the following 5 properties:
+        Display
+        Memory
+        CPU
+        Radio
+        Applications
 
-Sub Object 5: Seat 
-    Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
-    Name 2 things you can do with the:   Seat
-        1)
-        2)
+    A Cell Phone has 3 things it can do:
+        make a call
+        send a text
+        run an application.
+
+    Notice that I did not use "has a display" or "Has memory" or "has a cpu" as one of the properties of the CellPhone
+    
+    Writing 'has a ___" checks whether or not your object **has the ability to do something**.
+    Instead, I wrote "Display" or "CPU".  These are specific objects or amounts. 
+    
+    In C++ terms, this means to I want you to avoid using 'bool' (has a) as a member variable type.
+    Instead, prefer the other primitive types.
+
+    When you choose your 5 smaller parts, remember that each of these 5 Sub Objects will need 
+    to be defined with 5 primitive properties and 3 actions EACH.  
 */
+
+
+/*
+Thing 1) bicycle
+5 properties:
+    1) number of gears
+    2) range of gears, low to high
+    3) turning radius
+    4) amount of braking capacity being used
+    5) speed
+3 things it can do:
+    1) accelerate
+    2) decelerate
+    3) turn (left to right)
+ */
+
+/*
+Thing 2) clothes dryer
+5 properties:
+    1) temperature
+    2) length of cycle
+    3) speed of tumbling mechanism
+    4) drum light
+    5) moisture sensor
+3 things it can do:
+    1) delicate cycle
+    2) large load cycle
+    3) bedding cycle
+ */
+
+/*
+Thing 3) movie theater
+5 properties:
+    1) number of screens
+    2) number of concession options
+    3) hours of operation
+    4) number of ushers
+    5) capacity per screen
+3 things it can do:
+    1) screen movie #1
+    2) clean screening room #2
+    3) sell out of concession #3
+ */
+
+/*
+Thing 4) bascule bridge
+5 properties:
+    1) lanes of eastbound traffic
+    2) lanes of westbound traffic
+    3) drawbridge
+    4) ship corridor
+    5) stop lights
+3 things it can do:
+    1) raise bridge
+    2) change stop light to red
+    3) lower bridge
+ */
+
+/*
+Thing 10) Roland Jazz Chorus 40 Amplifier
+5 properties:
+    1) stereo volume/gain circuit
+    2) equalizer circuit
+    3) vibrato/chorus circuit
+    4) reverb circuit
+    5) distortion circuit
+3 things it can do:
+    1) run a clean signal with reverb
+    2) run a distorted signal
+    3) run a signal with stereo vibrato
+ */
+
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
